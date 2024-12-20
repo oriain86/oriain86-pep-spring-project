@@ -22,4 +22,3 @@ insert into account values (9996, 'testuser4', 'password');
 insert into message values (9999, 9999,'test message 1',1669947792);
 insert into message values (9997, 9997,'test message 2',1669947792);
 insert into message values (9996, 9996,'test message 3',1669947792);
-

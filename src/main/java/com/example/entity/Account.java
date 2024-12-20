@@ -7,6 +7,7 @@ import javax.persistence.*;
  *
  * You should NOT make any modifications to this class.
  */
+
 @Entity
 @Table(name="account")
 public class Account {
@@ -128,11 +129,12 @@ public class Account {
 			return false;
 		return true;
 	}
-
+    
     /**
      * Overriding the default toString() method allows for easy debugging.
      * @return a String representation of this class.
      */
+
     @Override
     public String toString() {
         return "Account{" +

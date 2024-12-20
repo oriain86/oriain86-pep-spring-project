@@ -7,6 +7,7 @@ import javax.persistence.*;
  *
  * You should NOT make any modifications to this class.
  */
+
 @Entity
 @Table(name="message")
 public class Message {
@@ -163,6 +164,7 @@ public class Message {
      * Overriding the default toString() method allows for easy debugging.
      * @return a String representation of this class.
      */
+
     @Override
     public String toString() {
         return "Message{" +
